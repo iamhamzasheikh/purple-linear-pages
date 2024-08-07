@@ -12,7 +12,7 @@
   background: transparent;
   width: 100%;
   height: auto;
-  margin: -10px auto;
+  margin: 0 auto;
   text-align: center;
 }
 .brand-heading > h2 {
@@ -23,7 +23,7 @@
 .design-card-transparent {
   width: 60%;
   height: 40%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50% , -50%);
   position: absolute;
@@ -43,9 +43,43 @@
   height: 70px;
   border: 2px solid black;
   position: absolute;
-  top: 25%;
+  top: 17%;
   left: 20%;
   border-radius: 50%;
   background-image: url(/src/assets/person-fourth.jpg);
-
+}
+.person-two {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 75%;
+  top: 10%;
+}
+.person-three {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  left: 60%;
+  position: absolute;
+}
+.person-fourth {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 78%;
+  left: 1%;
+}
+.person-five {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 78%;
+  left: 92%;
 }
