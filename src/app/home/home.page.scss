@@ -1,0 +1,51 @@
+.login-card-main-div {
+  border:  2px solid red;
+  width: 90%;
+  height: 100vh;
+  top: 0;
+  left: 50%;
+  transform: translate(-50% , 0);
+  position: absolute;
+  background: linear-gradient(to right, #e945e1, pink, skyblue, #e945e1);
+}
+.brand-heading {
+  background: transparent;
+  width: 100%;
+  height: auto;
+  margin: -10px auto;
+  text-align: center;
+}
+.brand-heading > h2 {
+  font-weight: 700;
+  color: white;
+  letter-spacing: 4px;
+}
+.design-card-transparent {
+  width: 60%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  border-radius: 50px;
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.internal-heading {
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.person-one {
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  border-radius: 50%;
+  background-image: url(/src/assets/person-fourth.jpg);
+
+}
